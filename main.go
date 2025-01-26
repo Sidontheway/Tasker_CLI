@@ -42,33 +42,32 @@ func displayHelpMessage() {
 Tasker CLI - Efficient Task Management
 =====================================================
 
+Usage: tasker <command> [arguments]
+
 Commands:
   add         Add a new task
-               Example: tasker -add "Complete project report"
-
-  edit-work   Edit a task's title
-               Format: tasker -edit-work "id:new title"
-               Example: tasker -edit-work "2:Updated task description"
-
-  change-branch Modify task's branch assignment
-                 Format: tasker -change-branch "id:new branch"
-                 Example: tasker -change-branch "1:Development"
-
-  assign      Assign a branch to a specific task
-               Format: tasker -assign "id:branch_name"
-               Example: tasker -assign "3:Backend"
-
-  del         Delete a task by index
-               Example: tasker -del 2
-
-  toggle      Toggle task completion status
-               Example: tasker -toggle 1
+              Example: tasker add "Complete project report"
 
   list        Display all tasks
-               Example: tasker -list
+              Example: tasker list
+
+  edit-work   Update task title
+              Example: tasker edit-work 1 "Updated task"
+
+  change-branch  Modify task's branch
+                 Example: tasker change-branch 1 "Development"
+
+  assign      Assign branch to task
+              Example: tasker assign 3 "Backend"
+
+  toggle      Change task completion status
+              Example: tasker toggle 1
+
+  del         Delete a task
+              Example: tasker del 2
 
 Global Options:
-  -h, -help    Show this help message
+  -h, -help ,help   Show this help message
 
 For more information, visit:
 https://github.com/Sidontheway/Tasker_CLI
