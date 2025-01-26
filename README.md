@@ -1,6 +1,6 @@
 # Tasker CLI 🚀
 
-## Installation Guide for Linux Users
+## Installation Guide for Linux / Mac Users
 
 ### Prerequisites
 - Ensure you have Go installed on your machine
